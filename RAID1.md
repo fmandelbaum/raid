@@ -10,6 +10,6 @@ Espejado (*mirroring*) de los datos, sin separación en tiras (*stripping*) ni p
 
 La capacidad de este arreglo es la mitad de la suma de las capacidades de los discos. Ej: Dos discos de 1TB dan un arreglo de 1TB.
 
-Si falla un disco del arreglo no se pierde ningún dato (la otra mitad del arreglo, tiene todos los datos).
+Si falla un disco del arreglo no se pierde ningún dato (la otra mitad del arreglo tiene todos los datos).
 
-El beneficio de este arreglo es la alta tolerancia a fallos. También se beneficia el rendimiento de las operaciones de lectura (el disco que tiene "más disponible" el dato es el que lo proporciona). Sin embargo, las operaciones de escritura son (un poco) más lentas ya que hay que escribir la copia en cada mitad de los discos del arreglo.
+El beneficio de este arreglo es la tolerancia alta frente a fallos. También se beneficia el rendimiento de las operaciones de lectura (el disco que tiene "más disponible" el dato es el que lo proporciona). Sin embargo, las operaciones de escritura son (un poco) más lentas ya que hay que escribir "dos veces" cada dato.

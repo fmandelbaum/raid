@@ -6,6 +6,8 @@ Los datos se distribuyen en los discos en alguna de varias maneras, que se conoc
 
 Por lo general, se utilizan discos iguales (misma marca, mismo modelo) para componer el arreglo.
 
+**Niveles Standard Más Utilizados**
+
 [RAID 0](RAID0.md)
 
 [RAID 1](RAID1.md)
